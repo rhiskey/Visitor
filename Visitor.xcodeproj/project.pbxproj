@@ -16,6 +16,9 @@
 		5BF1200727AAE49E0052019C /* VisitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1200627AAE49E0052019C /* VisitorTests.swift */; };
 		5BF1201127AAE49E0052019C /* VisitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1201027AAE49E0052019C /* VisitorUITests.swift */; };
 		5BF1201327AAE49E0052019C /* VisitorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1201227AAE49E0052019C /* VisitorUITestsLaunchTests.swift */; };
+		5BF1202027AAECB30052019C /* HeightResultVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1201F27AAECB30052019C /* HeightResultVisitor.swift */; };
+		5BF1202227AAECDD0052019C /* HeightResultVisitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1202127AAECDD0052019C /* HeightResultVisitable.swift */; };
+		5BF1202427AAED1E0052019C /* CellExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1202327AAED1E0052019C /* CellExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		5BF1200C27AAE49E0052019C /* VisitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF1201027AAE49E0052019C /* VisitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorUITests.swift; sourceTree = "<group>"; };
 		5BF1201227AAE49E0052019C /* VisitorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BF1201F27AAECB30052019C /* HeightResultVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightResultVisitor.swift; sourceTree = "<group>"; };
+		5BF1202127AAECDD0052019C /* HeightResultVisitable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightResultVisitable.swift; sourceTree = "<group>"; };
+		5BF1202327AAED1E0052019C /* CellExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				5BF11FF827AAE49E0052019C /* Assets.xcassets */,
 				5BF11FFA27AAE49E0052019C /* LaunchScreen.storyboard */,
 				5BF11FFD27AAE49E0052019C /* Info.plist */,
+				5BF1201F27AAECB30052019C /* HeightResultVisitor.swift */,
+				5BF1202127AAECDD0052019C /* HeightResultVisitable.swift */,
+				5BF1202327AAED1E0052019C /* CellExtensions.swift */,
 			);
 			path = Visitor;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BF11FF427AAE49D0052019C /* ViewController.swift in Sources */,
+				5BF1202427AAED1E0052019C /* CellExtensions.swift in Sources */,
 				5BF11FF027AAE49D0052019C /* AppDelegate.swift in Sources */,
 				5BF11FF227AAE49D0052019C /* SceneDelegate.swift in Sources */,
+				5BF1202227AAECDD0052019C /* HeightResultVisitable.swift in Sources */,
+				5BF1202027AAECB30052019C /* HeightResultVisitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
